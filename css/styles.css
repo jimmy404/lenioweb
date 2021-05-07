@@ -1,0 +1,121 @@
+/* Generals */
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  background-color: rgb(202, 202, 202);
+  color: rgb(0, 0, 0);
+  font-family: 'Comic Neue', cursive;
+  height: 100%;
+  line-height: 180%;
+  margin: 0;
+  text-align: justify;
+}
+
+header {
+  background-color: rgb(21, 21, 21);
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+}
+
+nav {
+  background-color: rgb(21, 21, 21);
+  color: #fff;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a, main a, aside a {
+  font-size: 20px;
+  padding-right: 15px;
+  text-decoration: none;
+}
+
+nav a {
+  color: #ffffff;
+}
+
+nav a:hover {
+  text-decoration: underline red;
+}
+
+main {
+  box-sizing: border-box;
+  float: left;
+  padding: 0 30px;
+  width: 70%;
+}
+
+main a {
+  color: rgb(255, 255, 255);
+}
+
+main a:hover {
+  color: rgb(0, 0, 0);
+}
+
+main h1, h2 {
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+
+main p, a {
+  font-family: 'Open Sans', sans-serif;
+}
+
+main h2 {
+  text-align: left;
+}
+
+aside {
+  background-color: rgb(21, 21, 21);
+  box-sizing: border-box;
+  color: #fff;
+  float: right;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 10px;
+  padding: 30px;
+  width: 30%;
+}
+
+aside a {
+  color: rgb(255, 255, 255);
+}
+
+aside a:hover {
+  color: rgb(255, 0, 0);
+}
+
+footer {
+  background-color: rgb(21, 21, 21);
+  color: rgb(153, 153, 153);
+  text-align: center;
+  padding: 20px;
+  margin-top: 4px;
+}
+
+footer a {
+  color: rgb(153, 153, 153);
+  display: inline;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+footer a:hover {
+  color: rgb(255,255,255);
+}
+/* Generals */
