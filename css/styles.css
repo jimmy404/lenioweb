@@ -119,3 +119,16 @@ footer a:hover {
   color: rgb(255,255,255);
 }
 /* Generals */
+
+/* Structure containers */
+.container-general {
+  width: 100%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.container-general img {
+  display: block;
+  margin: auto;
+}
+/* Structure containers */
