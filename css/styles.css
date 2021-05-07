@@ -131,4 +131,15 @@ footer a:hover {
   display: block;
   margin: auto;
 }
+
+#container-logo-start {
+  background-attachment: fixed;
+  background-image: url("https://images5.alphacoders.com/432/thumb-1920-432953.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 30px;
+  min-height: 100%;
+  text-align: center;
+}
 /* Structure containers */
