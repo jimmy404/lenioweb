@@ -173,4 +173,15 @@ footer a:hover {
   top: 50%;
   width: 100%;
 }
+
+.container-logo-end {
+  background-attachment: fixed;
+  background-image: url("https://wallpapercave.com/wp/wp2432866.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 20px;
+  min-height: 80%;
+  position: relative;
+}
 /* Structure containers */
