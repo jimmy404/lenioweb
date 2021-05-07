@@ -142,4 +142,35 @@ footer a:hover {
   min-height: 100%;
   text-align: center;
 }
+
+.container-comic {
+  background-attachment: fixed;
+  background-image: url("https://www.oas.org/ext/Portals/14/EasyDNNnews/2252/Image.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+  border-color: #FFF;
+  border-style: solid;
+  box-shadow:
+  0 0 0 1px #000,
+  0 0 0 3px #FFF,
+  0 0 0 1px #000;
+  margin: 20px;
+  min-height: 30%;
+  opacity: .65;
+  position: relative;
+}
+
+.container-comic__title {
+  color: #ffffff;
+  font-size: 550%;
+  letter-spacing: 8px;
+  position: absolute;
+  text-align: center;
+  text-transform: uppercase;
+  text-shadow: 0 0 10px #000;
+  top: 50%;
+  width: 100%;
+}
 /* Structure containers */
