@@ -222,3 +222,27 @@ footer a:hover {
   width: 100%;
 }
 /* GRID */
+
+/* Media Query */
+@media (max-width:520px) {
+
+  main, aside {
+    width: 90%;
+    float: left;
+  }
+
+  .container-comic {
+    width: 90%;
+    float: none;
+  }
+
+  .container-general {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .gallery__item:nth-child(1) {
+    grid-column-start: span 1;
+    grid-row-start: span 1;
+  }
+}
+/* Media Query */
